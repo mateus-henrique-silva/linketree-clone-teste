@@ -1,0 +1,20 @@
+.boxText{
+    /* position: absolute; */
+width:90%;
+height: 420px;
+overflow-y: auto;
+left: 8px;
+top: 417px;
+
+background: #cec8c8;
+border-radius: 7px;
+margin-bottom:300px;
+}
+
+.box{
+    margin-top:20px;
+    
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
