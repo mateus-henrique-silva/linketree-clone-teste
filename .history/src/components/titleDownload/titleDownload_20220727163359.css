@@ -1,0 +1,35 @@
+.section{
+    display:flex;
+    width:80%;
+    margin-top:10px;
+    margin-left: 20px;
+}
+.center{
+    display:flex;
+    justify-content:center;
+}
+.section p{
+  text-align:start;
+}
+
+.section .btn-text{
+    display:grid;
+    text-align:center;
+}
+
+.section .btn-text img{
+    margin-top:25px;
+}
+
+.btn-text{
+    width: 54.47px;
+height: 54.47px;
+left: 342.08px;
+top: 326px;
+
+/* Light */
+
+background: #FFFFFF;
+box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.17);
+border-radius: 7px;
+}

@@ -18,17 +18,15 @@
 }
 
 .section .btn-text img {
-
+  margin-top: 25px;
 }
 
 .btn-text {
   width: 54.47px;
-  height: 40px;
+  height: 40.47px;
   left: 342.08px;
   top: 326px;
-  margin-top:20px;
 
-align-items: center;
   /* Light */
 
   background: #ffffff;
