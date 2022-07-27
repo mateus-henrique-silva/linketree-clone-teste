@@ -1,0 +1,13 @@
+.box-buttons {
+  display: grid;
+  justify-content: center;
+}
+
+.background-lair {
+  background: url("../../assets/images/lair.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blu;
+
+}

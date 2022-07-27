@@ -1,0 +1,13 @@
+.box-buttons{
+    display:grid;
+    justify-content:center;
+}
+
+.background-lair{ background: url('../../assets/images/lair.jpg#filter'); 
+ filter: blur(20px);
+ 
+}
+
+.lair{
+    position: block;
+}

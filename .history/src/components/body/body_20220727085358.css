@@ -1,0 +1,8 @@
+.box-buttons {
+  display: grid;
+  justify-content: center;
+}
+
+.background-lair {
+  backdrop-filter: url("../../assets/") blur(4px) saturate(150%);
+}
