@@ -1,0 +1,37 @@
+.section {
+  display: flex;
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.section p {
+  text-align: start;
+  font-weight: bold;
+}
+
+.section .btn-text {
+  display: grid;
+  text-align: center;
+}
+
+.section .btn-text img {
+}
+
+.btn-text {
+  width: 54.47px;
+  height: 40px;
+  left: 342.08px;
+  top: 326px;
+  margin-top: 20px;
+
+  align-items: center;
+  /* Light */
+
+  background: #ffffff;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.17);
+  border-radius: 7px;
+}
