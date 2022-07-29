@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/your-app-name/static/css/main.d86aaac5.css",
+    "main.js": "/your-app-name/static/js/main.1522d08a.js",
+    "static/js/787.623255bd.chunk.js": "/your-app-name/static/js/787.623255bd.chunk.js",
+    "static/media/lair.png": "/your-app-name/static/media/lair.c95f8700f3c2716d67b4.png",
+    "static/media/cod.pdf": "/your-app-name/static/media/cod.d7d44866d953196cc139.pdf",
+    "static/media/logoWhiteRed.png": "/your-app-name/static/media/logoWhiteRed.6eccb4dd9135eeacd5c4.png",
+    "static/media/revicons.eot": "/your-app-name/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/your-app-name/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/your-app-name/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/your-app-name/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/your-app-name/index.html",
+    "static/media/instagram.svg": "/your-app-name/static/media/instagram.7d97391465d60f2909c444d267ea80ff.svg",
+    "static/media/download.svg": "/your-app-name/static/media/download.6a87135582202029736f1b76716b2fec.svg",
+    "static/media/book.svg": "/your-app-name/static/media/book.1eb461c1714bea41b70d160ad25dc9dc.svg",
+    "static/media/book-open.svg": "/your-app-name/static/media/book-open.67a128a70b4eaa20f68b805e7ef71e42.svg",
+    "static/media/folder.svg": "/your-app-name/static/media/folder.131f06eb968394918a3f4b04151f5a03.svg",
+    "static/media/facebook.svg": "/your-app-name/static/media/facebook.54b6ed1796ae51e7991a86b99ceb8334.svg",
+    "static/media/Aback.svg": "/your-app-name/static/media/Aback.9933390d8fe945a2bdb24e5c10b66aa2.svg",
+    "main.d86aaac5.css.map": "/your-app-name/static/css/main.d86aaac5.css.map",
+    "main.1522d08a.js.map": "/your-app-name/static/js/main.1522d08a.js.map",
+    "787.623255bd.chunk.js.map": "/your-app-name/static/js/787.623255bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d86aaac5.css",
+    "static/js/main.1522d08a.js"
+  ]
+}
