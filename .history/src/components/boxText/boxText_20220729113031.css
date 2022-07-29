@@ -27,11 +27,5 @@
   font-size: 16px;
   width: 90%;
   font-family: 'Cormorant Garamond', serif;
- font-weight: bold;
-}
-
-h1{
-  font-size: 12px;
-  margin-left: 10px;
-  /* text-align: center; */
+ font-weight: normal;
 }

@@ -7,7 +7,7 @@ const PromocoesNoviades = () => {
   return (
     <div>
       <Header image={ArrowImage} />
-        <Carousel/>
+        
     </div>
   );
 };

@@ -58,38 +58,6 @@ const CodigoDeConduta = () => {
             Reconhecer o direito de livre associação de seus empregados, respeitar e valorizar sua
             participação no sindicato e não praticar ou permitir qualquer tipo de discriminação com
             relação a seus empregados, sindicalizado ou não;
-
-            Respeitar e promover a diversidade e combater todas as formas de preconceito e
-discriminação, por meio de política transparente de admissão, treinamento, promoção na
-carreira, ascensão a cargos e na aplicação de penalidades. Nenhum colaborador ou
-potencial colaborador receberá tratamento discriminatório em conseqüência de sua raça,
-cor de pele, origem étnica, nacionalidade, posição social, idade, religião, gênero,
-orientação sexual, estética pessoal, condição física, mental ou psíquica, estado civil,
-opinião, convicção política, ou qualquer outro fator de diferenciação individual;
-Promover igualdade de oportunidades para todos os empregados, em todas as políticas,
-práticas e procedimentos, assegurando a aplicação do princípio da isonomia nas relações
-de trabalho;
-Promover de forma ampla e transparente a divulgação das normas internas da Líder
-Brasil;
-Desenvolver uma cultura organizacional que valoriza o intercâmbio e a disseminação de
-conhecimentos, promovendo a capacitação contínua de seus empregados através do
-projeto #EUSOLIDER
-Respeitar os Estatutos e os Códigos de Ética que disciplinam e regulamentam a
-profissão dos seus empregados;
-Garantir que recursos humanos e materiais disponíveis, sob sua responsabilidade, sejam
-aplicados com a máxima eficiência, de forma sustentável, na execução das atividades da
-Líder Brasil.
-SÃO DEVERES DOS COLABORADORES:
-Observar e respeitar as políticas, regulamentos e procedimentos corporativos, o disposto
-neste Código de Conduta e Ética e demais normas vigentes;
-Ser assíduo e pontual;
-Comunicar e justificar ao superior hierárquico os casos de atraso, esquecimentos do
-crachá e, registro do ponto quando obrigatório;
-Portar-se com respeito, correção e presteza de acordo com os bons costumes, enquanto
-estiver a serviço da Líder Brasil;
-Exercer com zelo e dedicação as atribuições do seu cargo/função;
-Tratar as pessoas com urbanidade, sem discriminação, seja por cor, etnia, classe social,
-convicção política, naturalidade, sexo, identidade de gênero, orientação sexual, credo, 
           
           
           "
