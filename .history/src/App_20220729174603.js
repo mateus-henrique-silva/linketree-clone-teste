@@ -13,6 +13,10 @@ function App() {
   return (
     <div className="App">
 
+<BrowserRouter basename={process.env.PUBLIC_URL}>
+</BrowserRouter>
+// ...
+
      <Router>
               <Routes>
                  <Route element={<Home/>} path="/" exact /> 

@@ -13,6 +13,9 @@ function App() {
   return (
     <div className="App">
 
+<BrowserRouter basename={process.env.PUBLIC_URL}>
+// ...
+
      <Router>
               <Routes>
                  <Route element={<Home/>} path="/" exact /> 
@@ -22,8 +25,7 @@ function App() {
               </Routes>
             </Router>
  
-
-      
+      </BrowserRouter>
     </div>
   );
 }
