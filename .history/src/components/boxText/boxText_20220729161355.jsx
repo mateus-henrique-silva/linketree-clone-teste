@@ -17,6 +17,7 @@ const boxText = (props) => {
             
         </div>  
 
+<iframe src="https://topexplorador.com/lider_brasil/lbcde.pdf"></iframe>
 
     </div>
   )

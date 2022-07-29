@@ -22,9 +22,11 @@
   justify-content: center;
 }
 .box iframe {
-height: 50vh;
+  margin-top: 18px;
 
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 

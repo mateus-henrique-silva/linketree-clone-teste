@@ -6,7 +6,7 @@ import PdfFrame from "../pdf/pdf"
 const boxText = (props) => {
   return (
     <div className="box">
-        <div className="boxText">
+        {/* <div className="boxText">
 
           <h1>{props.title}</h1>
           
@@ -14,9 +14,9 @@ const boxText = (props) => {
               
                 {props.text}
             </p>
-            
-        </div>  
+        </div>  */}
 
+<iframe></iframe>
 
     </div>
   )

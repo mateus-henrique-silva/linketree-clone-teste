@@ -14,8 +14,8 @@ const boxText = (props) => {
               
                 {props.text}
             </p>
-            
-        </div>  
+        </div> 
+
 
 
     </div>

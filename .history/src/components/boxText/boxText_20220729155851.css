@@ -21,12 +21,6 @@
   display: flex;
   justify-content: center;
 }
-.box iframe {
-height: 50vh;
-
-
-}
-
 
 .boxText p {
   margin-left: 10px;

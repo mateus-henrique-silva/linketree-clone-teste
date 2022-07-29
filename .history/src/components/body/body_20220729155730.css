@@ -11,7 +11,7 @@ body{
 .background-lair {
   background: url("../../assets/images/lair.png") ;
   min-height: 100vh;
-  height: 170vh;
+  height: 160vh;
   background-size: cover;
   background-position: center;
 
@@ -22,7 +22,7 @@ body{
 .blur{
     background: rgba(255,255,255,0);
    
-    height: 170vh;
+    height: 140vh;
     backdrop-filter:blur(16px);
 
 }

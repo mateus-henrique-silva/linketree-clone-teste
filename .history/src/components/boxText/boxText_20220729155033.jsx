@@ -11,13 +11,13 @@ const boxText = (props) => {
           <h1>{props.title}</h1>
           
             <p>
-              
                 {props.text}
             </p>
-            
-        </div>  
+        </div> 
 
+    <iframe src={Iframe}></iframe>
 
+        <PdfFrame/>
     </div>
   )
 }

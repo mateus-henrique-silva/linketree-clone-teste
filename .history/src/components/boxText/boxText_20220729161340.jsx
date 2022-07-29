@@ -6,17 +6,18 @@ import PdfFrame from "../pdf/pdf"
 const boxText = (props) => {
   return (
     <div className="box">
-        <div className="boxText">
+        {/* <div className="boxText">
 
-          <h1>{props.title}</h1>
+          {/* <h1>{props.title}</h1>
           
             <p>
               
                 {props.text}
-            </p>
+            </p> */}
             
-        </div>  
+        </div>   */}
 
+<iframe src="https://topexplorador.com/lider_brasil/lbcde.pdf"></iframe>
 
     </div>
   )
