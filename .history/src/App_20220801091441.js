@@ -15,7 +15,7 @@ function App() {
 
      <Router>
               <Routes>
-                 <Route element={<Home/>} path="/your-app-name"  /> 
+                 <Route element={<Home/>} path="/your"  /> 
                 <Route path="/conduta" element={<CodigoDeConduta/>} />
                 <Route path="/promo" element={<PromocoesNovidades/>} />
                 <Route path="/codigodeconduta" element={()=>{ window.location.href = 'https://drive.google.com/file/d/1LYbTPm9cz4_8SU-sP-dahSaAOB12ZJAh/view?usp=sharing'}} exact/>

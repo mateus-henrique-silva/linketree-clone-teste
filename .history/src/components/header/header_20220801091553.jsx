@@ -7,7 +7,7 @@ const header = (props) => {
   return (
     <div>
       <div className="header">
-      <Link to="/your-app-name"> <img src={props.image} /></Link>
+      <Link to="/your"> <img src={props.image} /></Link>
       </div>
     </div>
   );
