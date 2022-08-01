@@ -11,7 +11,7 @@ const PromocoesNoviades = () => {
       <div className="background-lair">
         <div className="blur">
           <Header image={ArrowImage} />
-          <h2>Promoções de Hoje</h2>
+          <h2>Promoções de Hoje</h1>
           <Carousel />
         </div>
       </div>
