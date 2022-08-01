@@ -1,0 +1,23 @@
+.background-lair {
+    background: url("../../assets/images/lair.png") ;
+    min-height: 100vh;
+    height: 170vh;
+    background-size: cover;
+    background-position: center;
+  
+  
+  }
+  
+  
+  .blur{
+      background: rgba(255,255,255,0);
+     
+      height: 170vh;
+      backdrop-filter:blur(16px);
+  
+  }
+  
+  
+  h1{
+    font-size: 1.5em;
+  }

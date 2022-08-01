@@ -1,0 +1,63 @@
+// import React from 'react'
+// import Carousel from "react-multi-carousel";
+// import "react-multi-carousel/lib/styles.css";
+// import "./carousel.css"
+
+
+// const responsive = {
+//     superLargeDesktop: {
+//       // the naming can be any, depends on you.
+//       breakpoint: { max: 4000, min: 3000 },
+//       items: 5
+//     },
+//     desktop: {
+//       breakpoint: { max: 3000, min: 1024 },
+//       items: 3
+//     },
+//     tablet: {
+//       breakpoint: { max: 1024, min: 464 },
+//       items: 2
+//     },
+//     mobile: {
+//       breakpoint: { max: 464, min: 0 },
+//       items: 1
+//     }
+//   };
+// const carousel = () => {
+//   return (
+//     <div className="carouselTop">
+  
+// <Carousel responsive={responsive}>
+//   <div>Item 1</div>
+//   <div>Item 2</div>
+//   <div>Item 3</div>
+//   <div>Item 4</div>
+// </Carousel>;
+//     </div>
+//   )
+// }
+
+// export default carousel
+
+
+
+import React from 'react'
+let slides = [
+  <img  src="https://picsum.photos/800/300/?random" alt="1" />,
+  <img  src="https://picsum.photos/800/301/?random" alt="2" />  ,
+  <img  src="https://picsum.photos/800/302/?random" alt="3" />  ,
+  <img  src="https://picsum.photos/800/303/?random" alt="4" />  ,
+  <img src="https://picsum.photos/800/304/?random" alt="5" />   ];
+
+const callback = function(index){
+  console.log("callback",index);
+}
+const carousel = () => {
+  return (
+    <div>
+      <Carousel slides={slides} autoplay={false}  onSlideChange={callback}/>
+    </div>
+  )
+}
+
+export default carousel
