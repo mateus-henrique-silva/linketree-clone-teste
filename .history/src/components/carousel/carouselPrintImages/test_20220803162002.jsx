@@ -1,0 +1,9 @@
+import testHoje from '../../assets/images/carousel/'
+
+function test(urlImage) {
+    const testImages = testHoje;
+    const indexTest = 0 +".jpeg";
+    return urlImage = `${testImages}/${indexTest}`;
+    console.log(urlImage);
+}
+export default test();
