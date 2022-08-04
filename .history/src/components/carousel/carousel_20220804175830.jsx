@@ -59,7 +59,7 @@ let slides = [
 var testanoAqui;
 
 export function callback(index) {
-  testanoAqui = index;
+  testanoAqui = 1;
   return testanoAqui;
 }
 // var testFinal = c

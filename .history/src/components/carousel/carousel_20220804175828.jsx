@@ -59,7 +59,7 @@ let slides = [
 var testanoAqui;
 
 export function callback(index) {
-  testanoAqui = index;
+  testanoAqui = 1;
   return testanoAqui;
 }
 // var testFinal = c
@@ -77,7 +77,7 @@ const carousel = () => {
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         crossorigin="anonymous"
       ></link>
-      <Carousel slides={slides} autoplay={false} onSlidesChange={callback} />
+      <Carousel slides={slides} autoplay={false} onSlidesChange={thiscallback} />
       <ImageAnalise imageSubs={indexNew} />
     </div>
   );
