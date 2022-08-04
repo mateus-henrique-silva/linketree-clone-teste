@@ -58,16 +58,17 @@ let slides = [
 
 
 // // const [indexPrint, setindexPrint] = useState(0);
-var carouselValue;
-export function callback(index,carouselValue =  carouselValue) {
-  
-  return carouselValue = index;
+function callback(object, index) {
+  object.make = index;
  }
 
+ var meucarro = {make: 0};
+ x = meucarro.make;     // x recebe o valor "Honda"
 
+minhaFuncao(meucarro);
 
 const testImages = "https://topexplorador.com/lider_brasil/";
-const indexTest = `${carouselValue}.jpg`;
+const indexTest = `${testValue}.jpg`;
 const indexNew = `${testImages}${indexTest}`;
 
 const carousel = () => {

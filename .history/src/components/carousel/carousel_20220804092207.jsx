@@ -58,16 +58,14 @@ let slides = [
 
 
 // // const [indexPrint, setindexPrint] = useState(0);
-var carouselValue;
-export function callback(index,carouselValue =  carouselValue) {
-  
-  return carouselValue = index;
+export function callback(index) {
+  return index;
  }
 
 
 
 const testImages = "https://topexplorador.com/lider_brasil/";
-const indexTest = `${carouselValue}.jpg`;
+const indexTest = `${index}.jpg`;
 const indexNew = `${testImages}${indexTest}`;
 
 const carousel = () => {
@@ -80,7 +78,7 @@ const carousel = () => {
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         crossorigin="anonymous"
       ></link>
-      <Carousel slides={slides} autoplay={false} onSlideChange={callback} />
+      <Carousel slides={slides} autoplay={false} onSlideChange={callback()} />
       <ImageAnalise imageSubs={indexNew} />
     </div>
   );

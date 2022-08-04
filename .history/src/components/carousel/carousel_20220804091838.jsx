@@ -43,7 +43,8 @@ import { Carousel } from "3d-react-carousal";
 import "./carousel.css";
 import imageTest from "../../assets/images/carousel/img1.jpeg";
 import ImageAnalise from "./carouselPrintImages/carouselPrintImages";
-// import JsTeste from './carouselPrintImages/test'
+
+import JsTeste from './carouselPrintImages/test'
 // import testtest from '../../assets/images/'
 
 let slides = [
@@ -58,17 +59,13 @@ let slides = [
 
 
 // // const [indexPrint, setindexPrint] = useState(0);
-var carouselValue;
-export function callback(index,carouselValue =  carouselValue) {
-  
-  return carouselValue = index;
- }
 
 
 
-const testImages = "https://topexplorador.com/lider_brasil/";
-const indexTest = `${carouselValue}.jpg`;
-const indexNew = `${testImages}${indexTest}`;
+
+// const testImages = "https://topexplorador.com/lider_brasil/";
+// const indexTest = `${}.jpg`;
+// const indexNew = `${testImages}${indexTest}`;
 
 const carousel = () => {
 
@@ -80,8 +77,8 @@ const carousel = () => {
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         crossorigin="anonymous"
       ></link>
-      <Carousel slides={slides} autoplay={false} onSlideChange={callback} />
-      <ImageAnalise imageSubs={indexNew} />
+      <Carousel slides={slides} autoplay={false} onSlideChange={callback.test} />
+      {/* <ImageAnalise imageSubs={indexNew} /> */}
     </div>
   );
 };

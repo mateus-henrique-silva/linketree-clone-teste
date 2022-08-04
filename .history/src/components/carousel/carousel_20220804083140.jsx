@@ -55,23 +55,22 @@ let slides = [
 ];
 
 
+const xyz=0;
 
+// const [indexPrint, setindexPrint] = useState(0);
+const callback = (index) => {
+  return index;
+ };
 
-// // const [indexPrint, setindexPrint] = useState(0);
-var carouselValue;
-export function callback(index,carouselValue =  carouselValue) {
-  
-  return carouselValue = index;
- }
-
-
+ const indexNewValue = callback();
 
 const testImages = "https://topexplorador.com/lider_brasil/";
-const indexTest = `${carouselValue}.jpg`;
+// const indexTest = `${indexNewValue(xyz)}.jpg`;
 const indexNew = `${testImages}${indexTest}`;
 
 const carousel = () => {
 
+console.log(xyz)
   return (
     <div className="carouselTop">
       <link

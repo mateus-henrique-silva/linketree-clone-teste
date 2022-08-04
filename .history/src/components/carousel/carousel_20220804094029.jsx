@@ -59,7 +59,7 @@ let slides = [
 
 // // const [indexPrint, setindexPrint] = useState(0);
 var carouselValue;
-export function callback(index,carouselValue =  carouselValue) {
+export function callback(index,carouselValue == ) {
   
   return carouselValue = index;
  }

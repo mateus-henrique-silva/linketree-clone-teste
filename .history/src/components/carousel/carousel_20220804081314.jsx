@@ -38,7 +38,7 @@
 
 // export default carousel
 
-import React from "react";
+import React, { useState } from "react";
 import { Carousel } from "3d-react-carousal";
 import "./carousel.css";
 import imageTest from "../../assets/images/carousel/img1.jpeg";
@@ -54,24 +54,19 @@ let slides = [
   <img src={imageTest} alt="5" />,
 ];
 
-
-
-
-// // const [indexPrint, setindexPrint] = useState(0);
-var carouselValue;
-export function callback(index,carouselValue =  carouselValue) {
-  
-  return carouselValue = index;
- }
-
-
-
+var indexNew;
+var xyz;
+const callback = (index, xyz) => {
+ return index;
+};
+const 
 const testImages = "https://topexplorador.com/lider_brasil/";
-const indexTest = `${carouselValue}.jpg`;
-const indexNew = `${testImages}${indexTest}`;
+const indexTest = `${xyz}.jpg`;
+indexNew = `${testImages}${indexTest}`;
 
 const carousel = () => {
 
+console.log(xyz)
   return (
     <div className="carouselTop">
       <link

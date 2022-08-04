@@ -43,6 +43,7 @@ import { Carousel } from "3d-react-carousal";
 import "./carousel.css";
 import imageTest from "../../assets/images/carousel/img1.jpeg";
 import ImageAnalise from "./carouselPrintImages/carouselPrintImages";
+import C
 // import JsTeste from './carouselPrintImages/test'
 // import testtest from '../../assets/images/'
 
@@ -58,17 +59,13 @@ let slides = [
 
 
 // // const [indexPrint, setindexPrint] = useState(0);
-var carouselValue;
-export function callback(index,carouselValue =  carouselValue) {
-  
-  return carouselValue = index;
- }
 
 
 
-const testImages = "https://topexplorador.com/lider_brasil/";
-const indexTest = `${carouselValue}.jpg`;
-const indexNew = `${testImages}${indexTest}`;
+
+// const testImages = "https://topexplorador.com/lider_brasil/";
+// const indexTest = `${}.jpg`;
+// const indexNew = `${testImages}${indexTest}`;
 
 const carousel = () => {
 
@@ -81,7 +78,7 @@ const carousel = () => {
         crossorigin="anonymous"
       ></link>
       <Carousel slides={slides} autoplay={false} onSlideChange={callback} />
-      <ImageAnalise imageSubs={indexNew} />
+      {/* <ImageAnalise imageSubs={indexNew} /> */}
     </div>
   );
 };
