@@ -38,22 +38,8 @@ const CarouselTest = () => {
         crossorigin="anonymous"
       ></link>
       <Carousel slides={slides} autoplay={false} onSlideChange={callback} />
-      <div className="img-change">
-      <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
+      <div></div>
       <ImageAnalise imageSubs={indexNew} />
-      </div>
     </div>
   );
 };

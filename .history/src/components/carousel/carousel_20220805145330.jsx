@@ -38,22 +38,22 @@ const CarouselTest = () => {
         crossorigin="anonymous"
       ></link>
       <Carousel slides={slides} autoplay={false} onSlideChange={callback} />
-      <div className="img-change">
+      <Router>
       <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
+    <ul>
+      <li>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/about">About</Link>
+      </li>
+      <li>
+        <Link to="/users">Users</Link>
+      </li>
+    </ul>
+  </nav>
       <ImageAnalise imageSubs={indexNew} />
-      </div>
+      </Router>
     </div>
   );
 };
@@ -62,3 +62,22 @@ export default CarouselTest;
 
 
 
+
+<div>
+
+
+  {/* A <Switch> looks through its children <Route>s and
+      renders the first one that matches the current URL. */}
+  <Switch>
+    <Route path="/about">
+      <About />
+    </Route>
+    <Route path="/users">
+      <Users />
+    </Route>
+    <Route path="/">
+      <Home />
+    </Route>
+  </Switch>
+</div>
+</Router>
