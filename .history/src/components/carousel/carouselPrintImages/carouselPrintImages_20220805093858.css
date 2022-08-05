@@ -1,0 +1,11 @@
+.img-sub-carousel{
+    width:80px;
+    margin-top:20px;
+}
+
+.align-sub-img{
+
+    width:100%;
+
+    justify-content:space-around;
+}
