@@ -10,7 +10,7 @@ import Book from "../../assets/icons/book.svg";
 import Folder from "../../assets/icons/folder.svg";
 import Download from "../../assets/icons/download.svg";
 import Empresa from "../empresa/empresa";
-const provedor = (caminho) => {
+const vaiparalaT = (caminho) => {
   console.log(caminho);
 
     window.location.href = 'https://topexplorador.com/lider_brasil/lb-catalogo-provedor.pdf'
@@ -19,7 +19,7 @@ const provedor = (caminho) => {
 
 };
 
-const cftv = (caminho) => {
+const vaiparalaTO = (caminho) => {
   console.log(caminho);
 
     window.location.href = 'https://topexplorador.com/lider_brasil/lb-catalogo-cftv.pdf'
@@ -43,15 +43,15 @@ const body = () => {
        
           </div>
           <div className="box-buttons">
-            <Button testCatalog={provedor} text="Catálogo de Provedor" image={Bookopen} />
+            <Button text="Catálogo de Provedor" image={Bookopen} />
           </div>
           <div className="box-buttons">
-            <Button testCatalog={cftv} text="Catálogo Segurança Eletrônica" image={Bookopen} />
+            <Button text="Catálogo Segurança Eletrônica" image={Bookopen} />
           </div>
           <div className="box-buttons">
             <Title text="Divulgação" />
             <Link to="/promo">
-            <Button  text="Promoções e Novidades" image={Folder} />
+            <Button text="Promoções e Novidades" image={Folder} />
             </Link>
           </div>
           <div className="box-buttons">

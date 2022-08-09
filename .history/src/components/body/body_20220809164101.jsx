@@ -43,15 +43,15 @@ const body = () => {
        
           </div>
           <div className="box-buttons">
-            <Button testCatalog={provedor} text="Catálogo de Provedor" image={Bookopen} />
+            <Button text="Catálogo de Provedor" image={Bookopen} />
           </div>
           <div className="box-buttons">
-            <Button testCatalog={cftv} text="Catálogo Segurança Eletrônica" image={Bookopen} />
+            <Button text="Catálogo Segurança Eletrônica" image={Bookopen} />
           </div>
           <div className="box-buttons">
             <Title text="Divulgação" />
             <Link to="/promo">
-            <Button  text="Promoções e Novidades" image={Folder} />
+            <Button text="Promoções e Novidades" image={Folder} />
             </Link>
           </div>
           <div className="box-buttons">

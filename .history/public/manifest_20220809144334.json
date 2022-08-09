@@ -1,0 +1,25 @@
+{
+    "name": "Lider Brasil",
+    "short_name": "LB",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "imagem/icone-x"
+        },
+        {
+            "src": "./  "name": "Lider Brasil",
+            "short_name": "LB",",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    
+      
+        "theme_color": "#2196f3",
+        "background_color": "#2196f3",
+        "display": "browser",
+        "scope": "/",
+        "start_url": "/"
+      
+}
