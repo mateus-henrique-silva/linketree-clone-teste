@@ -7,7 +7,7 @@ const social = () => {
   const vaiparala = (caminho) => {
     console.log(caminho);
 
-      window.location.href = 'https://www.facebook.com/search/top?q=l%C3%ADder%20brasil%20distribuidora'
+      window.location.href = 'https://drive.google.com/file/d/1wo6OqPzhPHXWMVK0BzsKRTamA072lJ-Y/view?usp=sharing'
       // ou
  
 
