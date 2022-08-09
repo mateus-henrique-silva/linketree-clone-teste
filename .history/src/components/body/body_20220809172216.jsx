@@ -36,10 +36,10 @@ const body = () => {
           <div className="box-buttons">
             <Title text="Colaborador Líder Brasil" />
            
-            <Link to="/conduta">
+           
              
               <Button text="Código de Conduta" image={Book}></Button>
-            </Link>
+           
        
           </div>
           <div className="box-buttons">

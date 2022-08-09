@@ -14,12 +14,12 @@ const buttons = (props) => {
 
   return (
     <div>
-      <div className="button" >
+       <Link to={testRoute}><div className="button"  onClick={props.testCatalog}>
         {" "}
         <img src={props.image} className="img" alt="" /><p>
         {props.text}
         </p>
-      </div>
+      </div></Link>
     </div>
   );
 };

@@ -27,6 +27,9 @@ const cftv = (caminho) => {
 
 
 };
+
+const conduta ="/conduta";
+const promo ="/promo";
 const body = () => {
   return (
     <div>
@@ -36,10 +39,10 @@ const body = () => {
           <div className="box-buttons">
             <Title text="Colaborador Líder Brasil" />
            
-            <Link to="/conduta">
+           
              
               <Button text="Código de Conduta" image={Book}></Button>
-            </Link>
+           
        
           </div>
           <div className="box-buttons">
@@ -50,9 +53,9 @@ const body = () => {
           </div>
           <div className="box-buttons">
             <Title text="Divulgação" />
-            <Link to="/promo">
-            <Button  text="Promoções e Novidades" image={Folder} />
-            </Link>
+           
+            <Button testRoute={}  text="Promoções e Novidades" image={Folder} />
+            
           </div>
           <div className="box-buttons">
             <Button text="Marketing e Vendas" image={Folder} />
