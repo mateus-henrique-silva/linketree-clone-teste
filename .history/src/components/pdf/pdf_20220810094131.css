@@ -1,0 +1,13 @@
+/* css => Melhorando a aparencia do pdfViewer */
+
+.App-header{
+    width: 100vw;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    /* background-color: transparent; */
+    cursor: pointer;
+}
+
