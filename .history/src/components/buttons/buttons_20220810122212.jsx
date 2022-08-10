@@ -14,7 +14,7 @@ const buttons = (props) => {
 
   return (
     <div>
-      <div className="button" onClick={props.testCatalog} >
+      <div className="button" onf >
         {" "}
         <img src={props.image} className="img" alt="" /><p>
         {props.text}
