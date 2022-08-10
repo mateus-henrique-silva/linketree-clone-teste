@@ -22,7 +22,7 @@
 }
 
 .section .btn-text img {
-    margin-bottom: -12px;
+    margin-bottom: -20px;
 }
 
 .btn-text {
@@ -42,7 +42,7 @@
 
 .btn-text p{
     font-size: 10px;
-    margin-top:15px;
+    /* margin-top:40px; */
     width: 100%;
     text-align: center;
   }

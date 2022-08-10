@@ -3,6 +3,7 @@ import Button from "../buttons/buttons";
 import "./body.css";
 import Title from "../title/title";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 // import Home from '../body/body.js'
 import Bookopen from "../../assets/icons/book-open.svg";
 import Book from "../../assets/icons/book.svg";

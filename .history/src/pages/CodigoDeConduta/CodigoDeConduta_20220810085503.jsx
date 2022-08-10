@@ -1,6 +1,6 @@
 import React from "react";
 import Empresa from "../../components/empresa/empresa";
-import PdfView from "../../components/pdf/pdf";
+import PdfView from '../../components/pdf/pdf'
 import ArrowImage from "../../assets/icons/Aback.svg";
 import Header from "../../components/header/header";
 import BoxText from "../../components/boxText/boxText";
@@ -17,7 +17,7 @@ const CodigoDeConduta = () => {
 
           <Empresa />
 
-          <Title image={Dwonload} />
+            <Title image={Dwonload}/>
           {/* <BoxText
           title="L Í D E R B R A S I L D I S T R I B U I D O R A"
             text="
@@ -95,7 +95,7 @@ convicção política, naturalidade, sexo, identidade de gênero, orientação s
           "
           /> */}
 
-          <PdfView />
+          <PdfView/>
         </div>
       </div>
     </div>

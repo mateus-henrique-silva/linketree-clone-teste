@@ -42,7 +42,7 @@ const Pdf = () => {
           )}
         </header>
       </center>
-      {/* <center>
+      <center>
         <div>
           <Document file="/cod.pdf" onLoadSuccess={onDocumentLoadSuccess}>
             {Array.from(new Array(numPages), (el, index) => (
@@ -50,7 +50,7 @@ const Pdf = () => {
             ))}
           </Document>
         </div>
-      </center> */}
+      </center>
     </>
   );
 };

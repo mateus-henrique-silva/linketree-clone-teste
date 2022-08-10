@@ -3,6 +3,7 @@ import Button from "../buttons/buttons";
 import "./body.css";
 import Title from "../title/title";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 // import Home from '../body/body.js'
 import Bookopen from "../../assets/icons/book-open.svg";
 import Book from "../../assets/icons/book.svg";
@@ -14,6 +15,7 @@ const provedor = (caminho) => {
 
   window.location.href =
     "https://topexplorador.com/lider_brasil/lb-catalogo-provedor.pdf";
+  // ou
 };
 
 const cftv = (caminho) => {
@@ -21,6 +23,7 @@ const cftv = (caminho) => {
 
   window.location.href =
     "https://topexplorador.com/lider_brasil/lb-catalogo-cftv.pdf";
+  // ou
 };
 const body = () => {
   return (
