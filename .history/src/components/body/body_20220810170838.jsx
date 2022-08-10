@@ -67,9 +67,11 @@ const body = () => {
             <Button text="Downloads" image={Download} />
           </div>
           <div className="box-buttons">
-            <Link to="/test">
-              <Button text="testando Api" image={Download} />
-            </Link>
+          <Link to="/conduta">
+        
+            <Button text="testando Api" image={Download} />
+         
+          </Link>
           </div>
           <br></br>
           <br></br>
