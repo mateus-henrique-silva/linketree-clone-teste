@@ -1,0 +1,22 @@
+.background-lair {
+    background: url("../../assets/images/lair.png") ;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+  
+  
+  }
+  
+  .blur{
+      background: rgba(255,255,255,0);
+    
+      backdrop-filter:blur(16px);
+  
+  }
+
+
+  .btn-signature{
+    width
+    border: none !important;
+    background:white!important;
+  }
