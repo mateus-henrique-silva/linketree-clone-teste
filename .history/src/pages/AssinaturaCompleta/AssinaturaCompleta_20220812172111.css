@@ -1,0 +1,11 @@
+.boxCorrect {
+  width: 320px;
+  height: 402px;
+  left: 55px;
+  top: 335px;
+
+  /* Light */
+
+  background: #ffffff;
+  border-radius: 35px;
+}

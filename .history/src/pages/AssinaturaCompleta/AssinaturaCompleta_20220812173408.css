@@ -1,0 +1,34 @@
+.boxCorrect {
+  width: 50%;
+  height: 402px;
+  left: 55px;
+  top: 335px;
+  margin-top:20px;
+
+  /* Light */
+
+  background: #ffffff;
+  border-radius: 35px;
+}
+.background-lair {
+    background: url("../../assets/images/lair.png") ;
+    min-height: 100vh;
+    height: 170vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .blur{
+      background: rgba(255,255,255,0);
+     
+      height: 170vh;
+      backdrop-filter:blur(16px);
+  
+  }

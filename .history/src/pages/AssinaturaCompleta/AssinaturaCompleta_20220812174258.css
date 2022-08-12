@@ -1,0 +1,45 @@
+.boxCorrect {
+  width: 320px;
+  height: 402px;
+  left: 55px;
+  top: 335px;
+  margin-top: 20px;
+    display:grid;
+
+  /* Light */
+
+  background: #ffffff;
+  border-radius: 35px;
+}
+.boxCorrect svg {
+    margin-top:50px;
+  }
+.background-lair {
+  background: url("../../assets/images/lair.png");
+  min-height: 100vh;
+  height: 170vh;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+
+.blur {
+  background: rgba(255, 255, 255, 0);
+
+  height: 170vh;
+  backdrop-filter: blur(16px);
+}
+.buttonReturn {
+  background: #d31717;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.17);
+  border-radius: 7px;
+  width: 185.95px;
+  height: 54.47px;
+  left: 121.53px;
+  top: 806px;
+  color: white;
+}
